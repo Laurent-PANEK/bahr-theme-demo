@@ -8,4 +8,4 @@ Ce dépot github est un mirroir du thème "BAHR".
 
 ## Démo
 
-[Lien](https://laurentpanek.github.io/bahr-theme-demo)
+[Lien](https://laurent-panek.github.io/bahr-theme-demo/)
