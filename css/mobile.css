@@ -1,0 +1,72 @@
+header .header-text p {
+    margin-bottom: 1em;
+}
+
+.btn-header {
+    display: inline-table;
+    background-size: contain;
+    height: 4.5em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-top: 1.5em;
+}
+
+#projects .caroussel .slide:nth-child(3),
+.testimonials .caroussel .slide:nth-child(3),
+.testimonials .caroussel .slide:nth-child(5) {
+    display: none;
+}
+
+.control-left,
+.control-right {
+    width: 10%;
+}
+
+.slide {
+    width: 50%;
+}
+
+.contact {
+    margin: 0 10%;
+}
+
+.testimonials {
+    margin: 0 5%;
+}
+
+.testimonials .caroussel .control-right,
+.testimonials .caroussel .control-left {
+    width: 8%;
+}
+
+.testimonials .caroussel .slide {
+    width: 30%;
+}
+
+.testimonials .current .testimonial {
+    padding-bottom: 3em;
+}
+
+@media only screen and (max-width: 500px) {
+    header {
+        padding-bottom: 18em;
+    }
+    .header-text {
+        margin-bottom: 3em;
+    }
+    header .header-text h3 {
+        margin: 1em 0;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .contact .social-links ul {
+        flex-wrap: wrap;
+    }
+    .contact .social-links ul li {
+        width: 25%;
+        margin: 1em 0;
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@font-face {
+    font-family: 'GothamRoundedLight';
+    src: url("../font/GothamRoundedLight.ttf")
+}
+
+@font-face {
+    font-family: 'GothamRoundedMedium';
+    src: url("../font/GothamRoundedMedium.ttf")
+}
+
+@font-face {
+    font-family: 'GothamRoundedBold';
+    src: url("../font/GothamRoundedBold.ttf")
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTCom-MdCn';
+    src: url("../font/HelveticaNeueLTCom-MdCn.ttf")
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTCom-ThCn';
+    src: url("../font/HelveticaNeueLTCom-ThCn.ttf")
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    background: #3a3935;
+    display: flex;
+    flex-direction: column;
+}
+
+nav .menu {
+    margin: 25px 12.5%;
+}
+
+nav .colors-line {
+    height: 2px;
+    display: flex;
+}
+
+.color {
+    width: 12.5%;
+}
+
+.green {
+    background: #c4d32e;
+}
+
+.pink {
+    background: #d84b93;
+}
+
+.blue-dark {
+    background: #199fcd;
+}
+
+.yellow {
+    background: #efd314;
+}
+
+.purple {
+    background: #aa6aaa;
+}
+
+.blue-light {
+    background: #6dcacd;
+}
+
+.red {
+    background: #ee4238;
+}
+
+.orange {
+    background: #f48f21;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand a {
+    font-family: GothamRoundedBold;
+    color: #efd314;
+    font-size: 4em;
+    letter-spacing: -0.12em;
+}
+
+.list-inline {
+    list-style: none;
+    padding: 0;
+}
+
+.list-inline li {
+    display: inline-block;
+}
+
+.center-menu {
+    margin-left: 9.5%;
+    margin-right: 8.2%;
+    width: 58%;
+}
+
+.center-menu ul li {
+    padding: 0 2.8%;
+    transition: 0.5s ease;
+}
+
+.center-menu ul li:hover {
+    background: #545454;
+    border-radius: 3px;
+}
+
+.center-menu ul li a {
+    font-family: 'Open Sans';
+    font-size: 1.17em;
+    letter-spacing: 0.04em;
+    line-height: 3.76em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.right-menu .list-inline li {
+    padding: 0 2px;
+}
+
+.right-menu .list-inline li a {
+    display: inline-block;
+    height: 39px;
+    width: 39px;
+}
+
+header {
+    width: 100%;
+    height: 57em;
+    background: url("../img/bg-header.png") left top no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+header .header-text h3 {
+    font-family: GothamRoundedBold;
+    font-size: 3em;
+    color: #c4c5c6;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+header .header-text p {
+    font-family: HelveticaNeueLTCom-ThCn;
+    font-size: 1.8em;
+    color: #c4c5c6;
+    margin-bottom: 5em;
+}
+
+header .header-text {
+    margin: 0 16%;
+}
+
+.btn-header {
+    display: flex;
+    background: url("/img/bg-btn-header.png") top left no-repeat;
+    width: 220px;
+    height: 63px;
+    margin-bottom: 6em;
+}
+
+.btn-header a {
+    margin: auto;
+    font-size: 2.3em;
+    font-family: "GothamRoundedBold";
+    color: rgb(77, 68, 8);
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.36);
+}
+
+.title-section {
+    margin: 6em 0;
+}
+
+.title-section h3 {
+    font-size: 3.6em;
+    font-family: "GothamRoundedBold";
+    color: rgb(45, 44, 40);
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+#services {
+    background: #e2dfd8;
+}
+
+.services {
+    margin: 0 12.8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16em;
+}
+
+.service {
+    margin: 0 1.5em;
+}
+
+.service .header-srv {
+    display: flex;
+    min-height: 80px;
+}
+
+.service .header-srv img {
+    margin: 0 auto;
+    align-self: flex-end;
+}
+
+.service .title-srv {
+    margin: 3em 0;
+}
+
+.service .title-srv h4 {
+    font-size: 1.2em;
+    font-family: "GothamRoundedBold";
+    color: rgb(58, 57, 53);
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.service .content-srv p {
+    font-size: 1.6em;
+    font-family: "HelveticaNeueLTCom-ThCn";
+    color: rgb(58, 57, 53);
+    line-height: 1.2;
+    text-align: justify;
+    margin: 0;
+}
+
+#projects {
+    background: #a2638f;
+}
+
+#projects .title-section h3,
+#contact .title-section h3,
+#testimonials .title-section h3 {
+    color: #fff;
+}
+
+.caroussel {
+    margin: 0 5%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 15em;
+}
+
+.control-left,
+.control-right {
+    width: 3%;
+}
+
+.control-left a,
+.control-right a {
+    width: inherit;
+}
+
+.control-left a img,
+.control-right a img {
+    width: 100%;
+    height: auto;
+}
+
+.control-left {
+    margin-right: 5%;
+}
+
+.control-right {
+    margin-left: 5%;
+}
+
+.slide {
+    width: 26%;
+    margin: 1%;
+    position: relative;
+}
+
+.slide .zoom {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.slide:hover a img {
+    opacity: 0.3;
+}
+
+.slide:hover .zoom {
+    opacity: 1;
+}
+
+.slide a img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+#testimonials {
+    background: #67bbab;
+}
+
+.testimonials {
+    margin: 0 12.8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials .current .testimonial {
+    border-radius: 3px;
+    padding: 0 4em;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    background-color: rgb(238, 238, 238);
+    position: relative;
+    z-index: 10;
+}
+
+.testimonial::after {
+    content: url("/img/testimonial_after.png");
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -21px;
+    z-index: 1;
+}
+
+.testimonials .current {
+    margin: 0 10%;
+}
+
+.testimonials .current .testimonial p {
+    font-size: 1.425em;
+    font-family: "GothamRoundedMedium";
+    color: rgb(58, 57, 53);
+    line-height: 1.667;
+    text-align: center;
+    margin: 0;
+}
+
+.testimonials .current .author {
+    margin-top: 5em;
+    margin-bottom: 4em;
+}
+
+.testimonials .current .author h4 {
+    font-size: 2.2em;
+    font-family: "GothamRoundedLight";
+    color: rgb(238, 238, 238);
+    line-height: 1.364;
+    text-align: center;
+    margin: 0;
+}
+
+.testimonials .current .author p {
+    font-size: 1.4em;
+    font-family: "GothamRoundedLight";
+    color: rgb(238, 238, 238);
+    line-height: 2.143;
+    text-align: center;
+    margin: 0;
+}
+
+.testimonials .caroussel {
+    margin: 0;
+    margin-bottom: 13em;
+}
+
+.testimonials .caroussel .slide {
+    width: 14.2%;
+    margin: 0 1.5%;
+}
+
+.testimonials .caroussel .control-left,
+.testimonials .caroussel .control-right {
+    width: 4%;
+}
+
+.testimonials .caroussel .control-left {
+    margin-right: 3%
+}
+
+.testimonials .caroussel .control-right {
+    margin-left: 3%;
+}
+
+.testimonials .caroussel .slide a img {
+    border: #5eaa9c solid 1em;
+    border-radius: 50%;
+    opacity: 0.4;
+}
+
+.testimonials .caroussel .slide+.active a img {
+    opacity: 1;
+}
+
+#contact {
+    position: relative;
+}
+
+.maps {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.contact {
+    position: relative;
+    z-index: 100;
+    padding-top: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 31%;
+}
+
+.contact .title-section {
+    margin: 0;
+    margin-bottom: 6em;
+}
+
+.contact .social-links {
+    margin-bottom: 6em;
+}
+
+.contact .social-links ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 2%;
+}
+
+.form {
+    width: 100%;
+    margin-bottom: 6em;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form form .input input,
+.form form textarea {
+    font-size: 1.5em;
+    font-family: "GothamRoundedLight";
+    color: rgb(149, 149, 149);
+    line-height: 1.474;
+    border: none;
+    background-color: rgb(40, 40, 40);
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.form form .input {
+    display: flex;
+    width: 100%;
+}
+
+.form form .input input {
+    padding: 1px;
+    padding-left: 5px;
+    height: 4em;
+    border-radius: 0 3px 3px 0;
+}
+
+.name,
+.email {
+    display: flex;
+    align-items: center;
+    background-color: rgb(40, 40, 40);
+    margin-bottom: 1.5em;
+    border-radius: 3px 0 0 3px;
+}
+
+.name img,
+.email img {
+    margin: 0 2em;
+    width: 100%;
+    height: auto;
+}
+
+.form form textarea {
+    height: 11em;
+    border-radius: 3px;
+}
+
+.submit {
+    height: 2.7em;
+    width: 40%;
+    border-radius: 3px;
+    background-color: rgb(169, 169, 169);
+    font-size: 2.2em;
+    font-family: "GothamRoundedBold";
+    color: rgb(40, 40, 40);
+    line-height: 1.2;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    align-self: flex-end;
+    transition: 0.5s ease;
+}
+
+.submit:hover {
+    transition: 0.5s ease;
+    background-color: rgb(204, 204, 204)
+}
+
+footer {
+    background: #3a3835;
+    padding: 4em 0;
+}
+
+footer p {
+    font-size: 1.5em;
+    font-family: "GothamRoundedLight";
+    color: rgb(149, 149, 149);
+    line-height: 1.474;
+    text-align: center;
+    margin: 0;
+}
+
+.social {
+    width: 6.4em;
+    height: 6.4em;
+    margin: 0 5px;
+    background-image: url("/img/spritesheet.png");
+    background-repeat: no-repeat;
+}
+
+.behance {
+    background-position: 0 0;
+}
+
+.behance:hover {
+    background-position: -64px 0;
+}
+
+.envato {
+    background-position: -128px 0;
+}
+
+.envato:hover {
+    background-position: -192px 0;
+}
+
+.facebook {
+    background-position: 0 -64px;
+}
+
+.facebook:hover {
+    background-position: -64px -64px;
+}
+
+.google {
+    background-position: -128px -64px;
+}
+
+.google:hover {
+    background-position: -192px -64px;
+}
+
+.instagram {
+    background-position: 0 -128px;
+}
+
+.instagram:hover {
+    background-position: -64px -128px;
+}
+
+.linkedin {
+    background-position: -128px -128px;
+}
+
+.linkedin:hover {
+    background-position: -192px -128px;
+}
+
+.twitter {
+    background-position: 0 -192px;
+}
+
+.twitter:hover {
+    background-position: -64px -192px;
+}
+
+.media {
+    background-position: -128px -192px;
+}
+
+.media:hover {
+    background-position: -192px -192px;
+}
