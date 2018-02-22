@@ -4,7 +4,7 @@
 
 ## À propos
 
-Ce dépot github est un mirroir du thème "BAHR" créer par [Ahmed Ali](https://a7medali.com).
+Ce dépot github est un mirroir du thème "BAHR".
 
 ## Démo
 
