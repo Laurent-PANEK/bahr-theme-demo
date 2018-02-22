@@ -182,7 +182,7 @@ header .header-text {
 
 .btn-header {
     display: flex;
-    background: url("/img/bg-btn-header.png") top left no-repeat;
+    background: url("../img/bg-btn-header.png") top left no-repeat;
     width: 220px;
     height: 63px;
     margin-bottom: 6em;
@@ -361,7 +361,7 @@ header .header-text {
 }
 
 .testimonial::after {
-    content: url("/img/testimonial_after.png");
+    content: url("../img/testimonial_after.png");
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -580,7 +580,7 @@ footer p {
     width: 6.4em;
     height: 6.4em;
     margin: 0 5px;
-    background-image: url("/img/spritesheet.png");
+    background-image: url("../img/spritesheet.png");
     background-repeat: no-repeat;
 }
 
